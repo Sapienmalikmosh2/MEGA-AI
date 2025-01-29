@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 
 import dotenv from 'dotenv'
-dotenv.config()
+dotenv.config(global.owner)
 
 const defaultOwner = '256700273834';
 
@@ -19,7 +19,7 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = 'malikmosh' process.env.BOTNAME || 'MEGA-AI';
+global.botname = 'MEGA-AI' process.env.BOTNAME || 'MEGA-AI';
 global.pairingNumber ='256700273834' process.env.BOT_NUMBER || '256700273834' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
