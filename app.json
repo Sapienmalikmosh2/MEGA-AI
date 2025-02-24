@@ -15,7 +15,7 @@
     "BOTNAME": {
       "description": "Give your BOT a name",
       "required": true,
-      "value": "ULTRA-MD"
+      "value": "MEGA-AI"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
@@ -24,7 +24,7 @@
     },
     "SESSION_ID": {
       "description": "your session id",
-      "required": true,
+      "required": 'false',
       "value": ""
     },
     "MODE": {
